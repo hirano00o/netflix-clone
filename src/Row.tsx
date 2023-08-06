@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import "./styles/Row.scss";
 import axios from "./axios";
 
-const baseIMGURL: string = "https://image.tmdb.org/t/p/original/";
+export const baseIMGURL: string = "https://image.tmdb.org/t/p/original/";
 
 type Props = {
     title: string;
